@@ -11,3 +11,17 @@
 body {
   background: #fff0de;
 }
+
+#home {
+  background: url(./assets/imgbg.svg);
+  object-fit: fit;
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-top: 0;
+}
+
+@media screen and (max-width: 480px) {
+  #home {
+    background-image: none;
+  }
+}
