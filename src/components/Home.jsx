@@ -18,7 +18,7 @@ const Home = () => {
       </div>
 
       <div className={`${layout.HalfContainer} `}>
-        <img src={imgHero} alt="" className="mt-[2rem]" />
+        {/* <img src={imgHero} alt="" className="mt-[2rem]" /> */}
       </div>
     </section>
   );
