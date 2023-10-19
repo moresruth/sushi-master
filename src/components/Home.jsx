@@ -17,9 +17,9 @@ const Home = () => {
         </a>
       </div>
 
-      <div className={`${layout.HalfContainer} `}>
-        {/* <img src={imgHero} alt="" className="mt-[2rem]" /> */}
-      </div>
+      {/* <div className={`${layout.HalfContainer} `}>
+        <img src={imgHero} alt="" className="mt-[2rem]" />
+      </div> */}
     </section>
   );
 };
