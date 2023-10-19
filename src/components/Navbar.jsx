@@ -42,7 +42,7 @@ const Navbar = () => {
                 onClick={() => setToggleMenu(false)}
               />
 
-              <ul className="list-none flex justify-end p-2 mx-auto flex-col flex-1 capitalize font-poppins font-bold hover:text-white ">
+              <ul className="list-none flex justify-end p-2 mx-auto flex-col flex-1 capitalize font-poppins font-normal hover:text-white ">
                 {["home", "about", "products", "testimonial"].map((item) => (
                   <li key={item} className="py-2">
                     <a href={`#${item}`} onClick={() => setToggleMenu(false)}>
