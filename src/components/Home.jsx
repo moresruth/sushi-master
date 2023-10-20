@@ -1,6 +1,6 @@
 // import { imgHero } from "../assets";
 
-import { imgHero } from "../assets";
+import imgHero from "../assets/imgHero.svg";
 
 const Home = () => {
   return (
