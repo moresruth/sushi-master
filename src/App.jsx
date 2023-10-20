@@ -1,6 +1,6 @@
 import React from "react";
 import { Home, Navbar } from "./components";
-import { About, TodaysMenu } from "./containers";
+import { About, ProductDish, TodaysMenu } from "./containers";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Home />
       <About />
       <TodaysMenu />
+      <ProductDish />
     </div>
   );
 }
