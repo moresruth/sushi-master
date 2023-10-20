@@ -6,7 +6,7 @@ const Home = () => {
       id="home"
       className="container mx-auto  mt-[3.5rem] pt-[3.5rem] min-h-screen flex flex-col sm:flex-row"
     >
-      <div className="sm:w-3/5 px-6 pt-5 md:pt-[8rem]">
+      {/* <div className="sm:w-3/5 px-6 pt-5 md:pt-[8rem]">
         <h2 className="font-playfair font-bold text-3xl sm:text-4xl md:text-7xl py-2">
           Enjoy Delicious
         </h2>
@@ -23,7 +23,7 @@ const Home = () => {
         >
           Subscribe
         </a>
-      </div>
+      </div> */}
 
       <div className="sm:w-1/2  px-6 py-6">
         <img src={imgHero} alt="" className="mt-[2rem]" />
