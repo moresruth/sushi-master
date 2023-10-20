@@ -1,4 +1,4 @@
-import { imgHero } from "../assets";
+// import { imgHero } from "../assets";
 
 const Home = () => {
   return (
@@ -25,9 +25,9 @@ const Home = () => {
         </a>
       </div> */}
 
-      <div className="sm:w-1/2  px-6 py-6">
+      {/* <div className="sm:w-1/2  px-6 py-6">
         <img src={imgHero} alt="" className="mt-[2rem]" />
-      </div>
+      </div> */}
     </section>
   );
 };
