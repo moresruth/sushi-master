@@ -1,5 +1,3 @@
-import React from "react";
-import styles, { layout } from "../styles";
 import { imgHero } from "../assets";
 
 const Home = () => {
