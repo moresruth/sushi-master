@@ -2,6 +2,7 @@ const styles ={
     
     heading2:"font-playfair font-bold text-3xl sm:text-4xl md:text-7xl py-2 ",
     heading3:"font-poppins font-semibold text-black text-center",
+    heading4: "font-playfair font-bold text-black text-base md:text-2xl",
     paragraph: "font-poppins font-normal text-dimWhite text-[16px] leading-[25px] py-4",
     title:"font-playfair font-semibold text-black text-base md:text-4xl",
     hover:"transition ease-in-out delay-50 border-cyan-400  hover:bg-primary hover:text-white hover:border-2 hover:border-cyan-400 duration-300",
