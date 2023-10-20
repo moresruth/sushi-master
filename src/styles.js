@@ -1,13 +1,13 @@
 const styles ={
     
     heading2:"font-playfair font-bold text-3xl sm:text-4xl md:text-7xl py-2 ",
-    heading3:"font-poppins font-normal text-cyan-300",
+    heading3:"font-poppins font-semibold text-black text-center",
     paragraph: "font-poppins font-normal text-dimWhite text-[16px] leading-[25px] py-4",
-    title:"font-poppins font-thin tex-white text-base",
+    title:"font-playfair font-semibold text-black text-base md:text-4xl",
     hover:"transition ease-in-out delay-50 border-cyan-400  hover:bg-primary hover:text-white hover:border-2 hover:border-cyan-400 duration-300",
   
     flexCenter: "flex justify-center items-center",
-    flexRow:"flex flex-col sm:flex-row ",
+    flexRow:"flex flex-col md:flex-row ",
     flexCol:"flex flex-col ",
     flexStart: "flex justify-center items-start",
 
@@ -26,7 +26,7 @@ const styles ={
 
 export const layout={
     
-    section:"container mx-auto  mt-[3.5rem] pt-[3.5rem] min-h-screen",
+    section:"container mx-auto px-6 mt-[3.5rem] pt-[3.5rem] min-h-screen",
     flexOnSM:"flex flex-col sm:flex-row",
     fullContainer:"px-6 sm:mx-[5rem] ",
     HalfContainer:"sm:w-1/2  px-6 py-6",
