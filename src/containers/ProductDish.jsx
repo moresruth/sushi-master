@@ -13,10 +13,6 @@ const ProductDish = () => {
         {data.products.map((card) => (
           <ProductCard key={card.id} {...card} />
         ))}
-
-        {/* {projects.map((card) => (
-        <ProjectCard key={card.id} {...card} />
-      ))} */}
       </div>
     </section>
   );

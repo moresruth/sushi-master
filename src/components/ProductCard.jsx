@@ -1,5 +1,4 @@
 import React from "react";
-import salmontemaki from "../assets/salmontemaki.svg";
 import styles from "../styles";
 import { BiShoppingBag } from "react-icons/bi";
 
