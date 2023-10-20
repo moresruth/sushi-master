@@ -1,3 +1,5 @@
+// import { imgHero } from "../assets";
+
 import { imgHero } from "../assets";
 
 const Home = () => {
@@ -25,9 +27,15 @@ const Home = () => {
         </a>
       </div>
 
-      <div className="sm:w-1/2  px-6 py-6">
+      <img
+        src={imgHero}
+        alt=""
+        className="mt-[2rem] sm:w-[50%] w-[90%] ml-[1.5rem] sm:flex-1 px-6 py-6"
+      />
+
+      {/* <div className="sm:w-1/2  px-6 py-6">
         <img src={imgHero} alt="" className="mt-[2rem]" />
-      </div>
+      </div> */}
     </section>
   );
 };
