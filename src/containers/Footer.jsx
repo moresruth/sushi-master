@@ -34,26 +34,23 @@ const Footer = () => {
         </div>
         <div className={`${styles.justifyBetween} py-6 mx-12`}>
           <div className="bg-amber-950 mx-2 flex items-center justify-center w-[50px] h-[50px] rounded-full">
-            <a href="https://github.com/moresruth" target="_blank">
+            <a href="#" target="_blank">
               <FaFacebook className="text-[25px]  text-white   hover:text-lightpink" />
             </a>
           </div>
 
           <div className="bg-amber-950 mx-2  flex items-center justify-center w-[50px] h-[50px] rounded-full">
-            <a href="https://www.behance.net/rmmors" target="_blank">
+            <a href="#">
               <FaTwitter className="text-[25px]  text-white   hover:text-lightpink" />
             </a>
           </div>
           <div className="bg-amber-950 mx-2  flex items-center justify-center w-[50px] h-[50px] rounded-full">
-            <a href="https://www.behance.net/rmmors" target="_blank">
+            <a href="#">
               <FaDiscord className="text-[25px]  text-white   hover:text-lightpink" />
             </a>
           </div>
           <div className="bg-amber-950 mx-2 flex items-center justify-center w-[50px] h-[50px] rounded-full">
-            <a
-              href="https://www.linkedin.com/in/ruthantonettemores/"
-              target="_blank"
-            >
+            <a href="#">
               <BsLinkedin className="text-[25px]  text-white   hover:text-lightpink" />
             </a>
           </div>
