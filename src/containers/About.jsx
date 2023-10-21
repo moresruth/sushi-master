@@ -7,9 +7,9 @@ const About = () => {
   return (
     <section id="about" className={`${layout.section}`}>
       <SectionTitle title="About" subtitle="私たちについて" />
-      <div className="flex flex-wrap  mt-5">
-        <div className="md:w-[325px] px-6 ">
-          <h3 className={`${styles.heading3}  items-center `}>
+      <div className={`${styles.flexWrap}`}>
+        <div className="md:w-[325px] pt-5 ">
+          <h3 className={`${styles.heading3}   text-center `}>
             We Provide Healthy Food
           </h3>
           <p className={`${styles.paragraph} text-center `}>
@@ -18,11 +18,15 @@ const About = () => {
             our customer
           </p>
         </div>
-        <div className="md:w-[500px] sm:w-[400px]   ">
-          <img src={imgAbout} alt="" className={`${styles.flexCenter} `} />
+        <div className={`${styles.flexCenter} md:w-[500px] sm:w-[400px]`}>
+          <img
+            src={imgAbout}
+            alt="about__image"
+            className={`${styles.flexCenter} md:ml-[3rem] sm:ml-[22rem] `}
+          />
         </div>
-        <div className="md:w-[325px] px-6  items-center md:mt-[10rem]">
-          <h3 className={`${styles.heading3} items-center`}>Our Mission</h3>
+        <div className="md:w-[325px]  pt-5 items-center md:mt-[10rem]">
+          <h3 className={`${styles.heading3}  text-center`}>Our Mission</h3>
           <p className={`${styles.paragraph} text-center `}>
             We will continue to provide the experience of Omotenashi, the
             Japanese mindset of hospitality, with our shopping and dining for

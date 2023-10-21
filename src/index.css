@@ -25,3 +25,9 @@ body {
     background-image: none;
   }
 }
+
+/* #newsletter {
+  background: url(./assets/bg-newsletter.png);
+  object-fit: fit;
+  background-repeat: no-repeat;
+} */

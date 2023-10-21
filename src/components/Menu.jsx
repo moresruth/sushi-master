@@ -10,22 +10,7 @@ const Menu = ({ title, price }) => {
         <p className={`${styles.paragraph}`}>{price}</p>
       </div>
     </>
-
-    // <div className="">
-    //   <div className="flex items-center">
-    //   </div>
-    // </div>
-    // <div className="px-6 md:px-4">
-    //   <div className=" flex flex-col">
-    //     {/* <h1 className="font-bold font-playfair">TEMAKI AND MAKI</h1> */}
-
-    //   </div>
-    // </div>
   );
 };
 
 export default Menu;
-// width: 90px;
-// height: 1px;
-// background: var(--brown-color);
-// margin: 0 1rem;
