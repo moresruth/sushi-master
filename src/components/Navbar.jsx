@@ -17,7 +17,7 @@ const Navbar = () => {
         <ul className="hidden md:flex justify-between items-center">
           {["home", "about", "products", "testimonial"].map((item) => (
             <li
-              className="font-poppins font-semibold text-base sm:px-4 md:px-9 capitalize hover:text-gray-500"
+              className="font-poppins font-semibold text-base sm:px-4 md:px-9 capitalize hover:text-amber-950"
               key={`link-${item}`}
             >
               <a href={`#${item}`} className="">
@@ -25,7 +25,7 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <a href="#login" className={`${styles.button} `}>
+          <a href="#newsletter" className={`${styles.button} `}>
             Subscribe
           </a>
         </ul>

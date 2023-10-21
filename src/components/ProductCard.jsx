@@ -14,7 +14,7 @@ const ProductCard = ({ imgUrl, name, price, description }) => {
         <h3 className={`${styles.heading4} py-3`}>{name}i</h3>
         <p className={`${styles.paragraph}`}>{description}</p>
         <div className={`${styles.flexCenter} ${styles.button} mb-3`}>
-          <a href="#">Buy Now</a>
+          <a href="#products">Buy Now</a>
           <span className="pl-3">
             <BiShoppingBag />
           </span>

@@ -20,10 +20,10 @@ const Home = () => {
           of the most popular Japanese food from anywhere and anytime.
         </p>
         <a
-          href="#login"
+          href="#about"
           className="font-poppins  font-semibold bg-amber-950 border-[1px] border-amber-950 px-4 py-2 rounded-[25px] text-white cursor-pointer transition ease-in-out hover:bg-white hover:text-amber-950"
         >
-          Subscribe
+          Learn More
         </a>
       </div>
 
